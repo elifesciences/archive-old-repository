@@ -47,7 +47,8 @@ else
     git clone --mirror "ssh://git@github.com/elifesciences/$remote_repo"
 fi
 
-#
+# TODO: clone issues
+# TODO: clone wiki
 
 mv $remote_repo_dir $loc
 

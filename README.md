@@ -10,7 +10,7 @@ Assumptions:
 
 ## Usage
 
-./archive-old-repo.sh <reponame>
+`$ ./archive-old-repo.sh <reponame>`
 
 ## Copyright & Licence
 

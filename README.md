@@ -12,6 +12,17 @@ Assumptions:
 
 `$ ./archive-old-repo.sh <reponame>`
 
+## Restore
+
+Download the mirrored repository and run:
+
+    $ cd [mirrored repository]
+    $ mkdir .git
+    $ mv * .git/
+    $ git init
+    
+And you should get a 're-initialised' type message from git.
+
 ## Copyright & Licence
 
 [MIT licenced](LICENCE.txt)
